@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leçon : Les Glucides et les Protéines</title>
+    <style>
+        /* Import professional fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.7;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2c3e50;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        /* Navigation bar */
+        nav {
+            background: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .nav-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+        .nav-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            background: #2c3e50;
+            color: white;
+            padding: 50px 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        /* Section styles */
+        section {
+            background: white;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        section h2 {
+            color: #3498db;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        section h3 {
+            color: #2ecc71;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        section h4 {
+            color: #e74c3c;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Details for expandable content */
+        details {
+            margin-bottom: 20px;
+        }
+        summary {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        summary:hover {
+            background: #bdc3c7;
+        }
+        details[open] summary {
+            background: #3498db;
+            color: white;
+        }
+        details[open] div {
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        /* Lists and text */
+        ul, ol {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .example {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background: #34495e;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+
+        /* Conclusion */
+        .conclusion {
+            background: #fff3e0;
+            padding: 40px;
+            border-left: 5px solid #ff9800;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .conclusion h2 {
+            color: #e65100;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+
+        <header>
+            <h1>📘 Leçon : Les Glucides et les Protéines</h1>
+            <p>(Niveau : 1ère Bac / SVT)</p>
+        </header>
+
+        <section id="glucides">
+            <h2>I. Les Glucides</h2>
+            
+            <details>
+                <summary>1. Définition générale</summary>
+                <div>
+                    <p>Les glucides (ou hydrates de carbone) sont des molécules organiques composées de C, H, O. Ils représentent la première source d’énergie de l’organisme et jouent plusieurs rôles biologiques essentiels. Les glucides sont classés selon leur complexité moléculaire et leur fonction dans l'organisme humain.</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>2. Classification des glucides</summary>
+                <div>
+                    <h4>a) Les monosaccharides</h4>
+                    <p>Ce sont les plus petites unités glucidiques, de formule générale (CH₂O)n. Ce sont des oses à absorption rapide. Ils sont directement assimilés par l'organisme sans digestion préalable.</p>
+                    <p class="example">Exemples :</p>
+                    <ul>
+                        <li>Glucose : carburant principal des cellules, essentiel pour le métabolisme énergétique.</li>
+                        <li>Fructose : sucre des fruits, métabolisé principalement par le foie.</li>
+                        <li>Galactose : présent dans le lait, souvent combiné avec le glucose pour former le lactose.</li>
+                    </ul>
+                    
+                    <h4>b) Les disaccharides</h4>
+                    <p>Ils résultent de l’union de deux monosaccharides par liaison osidique. Ils doivent être hydrolysés par des enzymes spécifiques pour être absorbés.</p>
+                    <p class="example">Exemples :</p>
+                    <ul>
+                        <li>Saccharose = glucose + fructose (sucre de table, source d'énergie rapide).</li>
+                        <li>Lactose = glucose + galactose (sucre du lait, essentiel pour les nourrissons).</li>
+                        <li>Maltose = glucose + glucose (produit de la digestion de l'amidon).</li>
+                    </ul>
+                    
+                    <h4>c) Les polysaccharides</h4>
+                    <p>Ce sont des polymères constitués de plusieurs centaines ou milliers de monosaccharides. Ils sont complexes et nécessitent une digestion lente.</p>
+                    <p class="example">Exemples :</p>
+                    <ul>
+                        <li>Amidon : réserve glucidique des végétaux, principale source d'énergie dans l'alimentation humaine.</li>
+                        <li>Glycogène : réserve glucidique des animaux, stocké dans le foie et les muscles pour une libération contrôlée d'énergie.</li>
+                        <li>Cellulose : rôle structural dans la paroi végétale, indigestible par l'homme mais essentielle pour la digestion grâce aux fibres.</li>
+                    </ul>
+                </div>
+            </details>
+            
+            <details>
+                <summary>3. Rôles biologiques des glucides</summary>
+                <div>
+                    <h4>a) Rôle énergétique</h4>
+                    <ul>
+                        <li>1 g de glucides = 4 kcal, fournissant l'énergie nécessaire aux activités cellulaires.</li>
+                        <li>Le glucose est le principal combustible des cellules, utilisé dans la respiration cellulaire.</li>
+                        <li>Le glycogène sert de réserve dans le foie et les muscles, libéré lors d'efforts physiques ou de jeûne.</li>
+                    </ul>
+                    
+                    <h4>b) Rôle structural</h4>
+                    <p>La cellulose intervient dans la constitution des parois végétales, offrant rigidité et protection aux plantes. Chez l'homme, elle contribue à la santé digestive en tant que fibre alimentaire.</p>
+                    
+                    <h4>c) Rôle métabolique</h4>
+                    <p>Précurseurs de certaines molécules importantes : ADN/ARN (ribose, désoxyribose). Ils participent également à la synthèse de lipides et de protéines.</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>4. Sources alimentaires des glucides</summary>
+                <div>
+                    <ul>
+                        <li>Simples : fruits (bananes, pommes), miel, lait (contenant lactose).</li>
+                        <li>Complexes : pain, pâtes, riz, semoule, lentilles, pommes de terre, céréales complètes riches en fibres.</li>
+                    </ul>
+                    <p>Une alimentation équilibrée recommande 50-60% de glucides complexes pour une énergie durable.</p>
+                </div>
+            </details>
+        </section>
+
+        <section id="proteines">
+            <h2>II. Les Protéines</h2>
+            
+            <details>
+                <summary>1. Définition générale</summary>
+                <div>
+                    <p>Les protéines sont des macromolécules formées par l’enchaînement d’acides aminés. Elles contiennent C, H, O, N, et parfois S (soufre). Elles sont indispensables à la structure, au fonctionnement, et à la régulation de l’organisme. Les protéines représentent environ 15-20% du poids corporel.</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>2. Structure des protéines</summary>
+                <div>
+                    <h4>a) Acides aminés</h4>
+                    <ul>
+                        <li>Il existe 20 acides aminés différents, chacun avec une chaîne latérale spécifique.</li>
+                        <li>Certains sont essentiels (doivent être apportés par l’alimentation : leucine, isoleucine, valine, etc.), d'autres non-essentiels (synthétisés par l'organisme).</li>
+                    </ul>
+                    
+                    <h4>b) Formation des protéines</h4>
+                    <p>Les acides aminés s’assemblent par liaison peptidique → forment des polypeptides → qui se replient pour former une protéine fonctionnelle. Ce processus est dirigé par l'ARN messager dans la synthèse protéique.</p>
+                    
+                    <h4>c) Niveaux de structure</h4>
+                    <ul>
+                        <li>Structure primaire : séquence linéaire d’acides aminés, déterminant la fonction.</li>
+                        <li>Structure secondaire : hélice α ou feuillet β, stabilisée par liaisons hydrogène.</li>
+                        <li>Structure tertiaire : repliement en 3D, influencé par interactions hydrophobes et charges.</li>
+                        <li>Structure quaternaire : assemblage de plusieurs chaînes (ex : hémoglobine, composée de 4 sous-unités).</li>
+                    </ul>
+                </div>
+            </details>
+            
+            <details>
+                <summary>3. Rôles biologiques des protéines</summary>
+                <div>
+                    <h4>a) Rôle structural</h4>
+                    <p>Construction et renouvellement des muscles, cheveux, peau, ongles. Le collagène et l'élastine sont des exemples clés.</p>
+                    
+                    <h4>b) Rôle enzymatique</h4>
+                    <p>Les enzymes sont des protéines qui accélèrent les réactions chimiques (catalyse). Exemples : amylase pour la digestion des glucides.</p>
+                    
+                    <h4>c) Rôle hormonal</h4>
+                    <p>Certaines hormones sont protéiques (insuline, glucagon) ou peptidiques, régulant le métabolisme glucidique.</p>
+                    
+                    <h4>d) Rôle immunitaire</h4>
+                    <p>Les anticorps sont des protéines produites par les lymphocytes B pour neutraliser les antigènes.</p>
+                    
+                    <h4>e) Rôle de transport</h4>
+                    <p>Hémoglobine (transport de l’O₂ dans le sang), albumine (transport de substances dans le plasma).</p>
+                    
+                    <h4>f) Rôle énergétique</h4>
+                    <p>Rarement utilisé (1 g = 4 kcal), en cas de manque de glucides et lipides, comme dans le jeûne prolongé.</p>
+                </div>
+            </details>
+            
+            <details>
+                <summary>4. Sources alimentaires</summary>
+                <div>
+                    <ul>
+                        <li>Viandes, poissons : riches en protéines complètes avec tous les acides aminés essentiels.</li>
+                        <li>Œufs : source de haute qualité, contenant tous les acides aminés.</li>
+                        <li>Lait et produits laitiers : caséine et lactalbumine, bonnes pour la croissance.</li>
+                        <li>Légumineuses (lentilles, pois chiches) : protéines végétales, à combiner avec céréales pour complémentarité.</li>
+                        <li>Fruits secs (amandes, noix) : apportent des protéines et graisses saines.</li>
+                    </ul>
+                    <p>Les besoins quotidiens varient : 0.8 g/kg pour adultes sédentaires, plus pour sportifs.</p>
+                </div>
+            </details>
+        </section>
+
+        <section id="comparaison">
+            <h2>III. Comparaison entre glucides et protéines</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Glucides</th>
+                        <th>Protéines</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Unité de base</td>
+                        <td>Monosaccharides</td>
+                        <td>Acides aminés</td>
+                    </tr>
+                    <tr>
+                        <td>Atomes</td>
+                        <td>C, H, O</td>
+                        <td>C, H, O, N (+ S)</td>
+                    </tr>
+                    <tr>
+                        <td>Rôle principal</td>
+                        <td>Énergie</td>
+                        <td>Structure + fonctionnement</td>
+                    </tr>
+                    <tr>
+                        <td>Réserve</td>
+                        <td>Glycogène</td>
+                        <td>Pas de réserve réelle</td>
+                    </tr>
+                    <tr>
+                        <td>Exemples</td>
+                        <td>Amidon, glucose</td>
+                        <td>Enzymes, anticorps, collagène</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="conclusion" id="conclusion">
+            <h2>📌 Conclusion (à mémoriser)</h2>
+            <p>Les glucides assurent principalement l’approvisionnement énergétique du corps, tandis que les protéines assurent la construction des structures biologiques et la régulation des fonctions vitales. Ces deux familles de biomolécules sont donc essentielles à la survie et au bon fonctionnement de l’organisme. Une alimentation équilibrée doit inclure les deux pour maintenir la santé.</p>
+        </section>
+    </div>
+</body>
+</html>
